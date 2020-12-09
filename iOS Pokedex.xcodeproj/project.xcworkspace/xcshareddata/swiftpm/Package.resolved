@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "2a10bf41da75599a9f8e872dbd44fe0155a2e00c",
+          "version": "5.15.8"
+        }
+      },
+      {
+        "package": "PokemonAPI",
+        "repositoryURL": "https://github.com/kinkofer/PokemonAPI",
+        "state": {
+          "branch": null,
+          "revision": "d0ca44f096fed584be4804abd164d8d5225d408a",
+          "version": "6.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
