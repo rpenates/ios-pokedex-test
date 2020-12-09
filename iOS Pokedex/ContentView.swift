@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var searchString = ""
+    @ObservedObject var viewModel = ContentViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView {
+            VStack {
+                SearchBar(text: self.$searchString)
+                Spacer()
+            }
+        }.navigationBarTitle("Pokedex", displayMode: .inline)
+    }   
 }
 
 struct ContentView_Previews: PreviewProvider {
